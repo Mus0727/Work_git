@@ -1,0 +1,131 @@
+ /* General styles */
+ body {
+    font-family:  Arial, Helvetica, sans-serif;
+    font-size: 8px;
+    background-color: white;
+  }
+
+  /* Comment indicator and comment */
+  a.comment-indicator {
+    background: red;
+    display: inline-block;
+    border: 1px solid black;
+    width: 20px;
+    height: 15px;
+  }
+
+  div.comment {
+    display: none;
+  }
+
+  a.comment-indicator:hover + div.comment {
+    background: #ffd;
+    position: absolute;
+    display: block;
+    border: 1px solid black;
+    padding: 10px;
+  }
+
+  /* Gridlines */
+  .gridlines td, .gridlines th {
+    border: 1px dotted black;
+  }
+
+  /* Table styles */
+  table {
+    border-collapse: collapse;
+    page-break-after: always;
+  }
+
+  /* Shared cell styles */
+  td, th {
+    vertical-align: bottom;
+    border-top: 1px solid #000000 !important;
+    border-bottom: none #000000;
+    border-left: 1px solid #000000 !important;
+    border-right: 1px solid #000000 !important;
+    color: #000000;
+    font-family: 'Arial', 'Calibri';
+    font-size: 13px;
+  }
+
+  /* Alignment classes */
+  .b {
+    text-align: center;
+  }
+
+  .e, .n, .s {
+    text-align: center;
+  }
+
+  .f {
+    text-align: right;
+  }
+
+  
+  /* Background colors */
+  .style4, .style13, .style5, .style6, .style7, .style14, .style15, .style8, .style10 {
+    background-color: rgb(109, 184, 177);
+  }
+
+  .style4, .style16 {
+    background-color: white;
+  }
+
+  /* Column widths */
+  .sheet0 col {
+    width: 50px;
+  }
+
+  .sheet0 col.col0 {
+    width: 20px;
+  }
+
+  .sheet0 col.col1 {
+    width: 50px;
+  }
+
+  .sheet0 col.col5 {
+    width: 20px;
+  }
+
+  .sheet0 col.col6 {
+    width: 20px;
+  }
+
+  /* Row heights */
+  .sheet0 tr, .sheet0 tr.row7 {
+    height: 10px;
+  }
+
+  .sheet0 tr.row8 {
+    height: 15px;
+  }
+
+  .sheet0 tr.row10 {
+    height: 20px;
+  }
+
+  /* Bold and underline */
+  .bold-underline {
+    font-weight: bold;
+    text-decoration: underline;
+  }
+
+  /* Red comment indicator */
+  .comment-indicator-red {
+    background: red;
+    display: inline-block;
+    border: 10px solid black;
+    width: 0.5em;
+    height: 0.5em;
+  }
+
+  .comment-indicator-red:hover + div.comment {
+    background: rgb(61, 199, 218);
+  }
+
+  /* Blue background */
+  .blue-background {
+    background-color: #48dbdb;
+  }
